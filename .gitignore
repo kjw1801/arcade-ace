@@ -2,3 +2,12 @@
 *.tmp
 *.swp
 Thumbs.db
+
+# 대용량 바이너리 산출물/자산 (working tree 유지, git 미추적)
+submit/
+*.zip
+*.pdf
+*.docx
+*.jpeg
+*.jpg
+*.png
