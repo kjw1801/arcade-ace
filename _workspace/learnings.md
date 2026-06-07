@@ -12,6 +12,8 @@
   - ✗ 실수: 메인↔워크트리를 `cp`로 수동 복사 → 드리프트·회귀(PROJECT_CONTEXT 옛 규칙 잔존 등). **cp 동기화 금지, git으로 합친다.**
 - **설정 드리프트 점검:** 회차 시작 시 CLAUDE.md / PROJECT_CONTEXT / novel-config / platform-guide / canon-bible 정합 확인(특히 POV 규칙·코드명·인물 역할).
 - `.gitignore`로 .DS_Store 등 노이즈 제외. 스크래치(EP00x_*.md)는 `manuscript/_archive/`에만.
+- **블라인드 자가-검증 테스트(스킬 QA):** 방법론(config+learnings)만으로 회차를 백지 재생성해 스킬 빈틈을 찾는다. **반드시 골드/이전본을 working tree에서 *물리적으로 제거* 후 실행**(지시만으론 에이전트가 Read해 오염됨 — v2 사례). 루프: 블라인드 재생성 → 갭 발견 → learnings 패치 → 물리 블라인드 재검증. (EP001: v1→갭(엔진·회상)→규칙10·11→v3 해소 확인.)
+  - 추가 주의: 재생성 에이전트가 원작 파일 끝의 종료 `***`를 따라 붙이는 경향 → 규칙 6(`***`=실제 전환 1회 전용, 종료 마커 금지) 강제.
 
 ---
 
