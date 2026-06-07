@@ -46,9 +46,10 @@ project:
 ### EP 범위별 플롯 가이드
 | EP 범위 | 레이블 | 플롯 가이드 경로 | 세부 플롯(선택) | 세부 캐릭터(선택) |
 |---|---|---|---|---|
-| EP001~EP050 | 1권 (스콜피온 편) | design/keep-scenes.md | | |
+| EP001~EP005 | 1막 (선작 골든) | design/plot-hook-guide_act1.md §2 (EP 상세 카드) | | |
+| EP006~EP050 | 1권 (스콜피온 편) | design/plot-hook-guide_act1.md §4 (arc 스켈레톤) + design/keep-scenes.md (장면 자산) | | |
 
-> ⚠️ keep-scenes.md는 **임시 플롯 가이드**. 정식 `design/plot-hook-guide_act1.md` 작성 시 교체.
+> `plot-hook-guide_act1.md` = 1막 EP001~005 상세 설계도 + 1권 arc + 명대사 배치(정본). keep-scenes.md = EP006+ 장면 자산 풀.
 
 ### 컨벤션
 - 회차 파일명: `manuscript/EP{NNN}.md` (대문자 EP, 3자리).
