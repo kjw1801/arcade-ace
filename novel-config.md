@@ -46,10 +46,12 @@ project:
 ### EP 범위별 플롯 가이드
 | EP 범위 | 레이블 | 플롯 가이드 경로 | 세부 플롯(선택) | 세부 캐릭터(선택) |
 |---|---|---|---|---|
-| EP001~EP005 | 1막 (선작 골든) | design/plot-hook-guide_act1.md §2 (EP 상세 카드) | | |
-| EP006~EP050 | 1권 (스콜피온 편) | design/plot-hook-guide_act1.md §4 (arc 스켈레톤) + design/keep-scenes.md (장면 자산) | | |
+| EP001~EP005 | 1권 도입 (선작 골든) | design/plot-hook-guide_act1.md §2 (EP 상세 카드) | | |
+| EP006~EP035 | 1권 (스콜피온 편) | plot-hook-guide_act1.md §4 + §1-0 매핑 + design/keep-scenes.md (장면 자산) | | |
+| EP036~EP300 | 2~8권 | **기존 설정집/전체 시리즈 로드맵.md** (매크로 마스터) + plot-hook-guide §1-0 | | |
 
-> `plot-hook-guide_act1.md` = 1막 EP001~005 상세 설계도 + 1권 arc + 명대사 배치(정본). keep-scenes.md = EP006+ 장면 자산 풀.
+> **매크로 마스터 = `기존 설정집/전체 시리즈 로드맵.md`(300화·8권).** `plot-hook-guide_act1.md` = 1권 상세(EP001~005 카드 + 1권 arc + 명대사 배치) + §1-0 페이싱 정합.
+> 원작 50화 = **소스 자산**(EP↔원작 1:1은 골든런 EP001~005 한정). keep-scenes.md = 장면 풀. 강태오/JSICS·마스터떡밥 회수(5권) 일정은 §1-0.
 
 ### 컨벤션
 - 회차 파일명: `manuscript/EP{NNN}.md` (대문자 EP, 3자리).
